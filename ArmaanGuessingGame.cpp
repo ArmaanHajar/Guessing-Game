@@ -18,7 +18,7 @@ int main() {
   bool newgame = true;
   int guesses = 0;
 
-  // if the user wants to play again, newgame will stay false. if the user does not want to play again, newgame iwll become false and end the program
+  // if the user wants to play again, newgame will stay true. if the user does not want to play again, newgame wll become false and end the program
   while (newgame == true) {
     bool guessed = false;
     // random number generator
